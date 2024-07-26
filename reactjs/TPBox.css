@@ -1,0 +1,20 @@
+
+
+@media (min-width: 992px) {
+  .responsive-hide-for-large-screen {
+      display: none !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .responsive-hide-for-medium-screen {
+      display: none !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .responsive-hide-for-small-screen {
+      display: none !important;
+  }
+}
+
