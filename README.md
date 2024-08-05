@@ -10,6 +10,8 @@ An inspiration by / alternative of using `tailwind.css`.
 
 An alternative to do quick layout customization without bothering your CSS files.
 
+The styles are reactive on any parameter change.
+
 ----
 
 ## How to install
