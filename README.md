@@ -156,7 +156,7 @@ import { TPBox } from './TPBox/reactjs/TPBox'
 ```
 
 ```html
-// webcomponents
+<!-- webcomponents -->
 
 <tp-box rel column a-center j-space-between wfullv hfullv>   <!-- Full window screen size, flex column, align items center, justify contents space-between, position relative -->
   <tp-box row a-center j-center wfull>                       <!-- Full relative width, flex row, align items center, justify contents center -->
