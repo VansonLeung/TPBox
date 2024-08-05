@@ -9,7 +9,7 @@
 ```
 // React
 
-import { TPBox } from './TPBox.js'
+import { TPBox } from './TPBox'
 ```
 
 ----
