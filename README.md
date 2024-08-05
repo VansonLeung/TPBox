@@ -22,7 +22,7 @@ An alternative to do quick layout customization without bothering your CSS files
 import { TPBox } from './TPBox/reactjs/TPBox'
 ```
 
-```
+```jsx
 // React
 
 
