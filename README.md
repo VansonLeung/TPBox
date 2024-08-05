@@ -1,5 +1,13 @@
 # TPBox
 
+A functional layout-by-properties box view. Now supports ReactJS and WebComponents.
+
+A shorthand support of `inline styles`.
+
+An isolation of layout wrappers and business logics.
+
+An inspiration by / alternative of using `tailwind.css`.
+
 ----
 
 ## How to install
