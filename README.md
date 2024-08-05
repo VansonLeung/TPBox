@@ -2,11 +2,13 @@
 
 A functional layout-by-properties box view. Now supports ReactJS and WebComponents.
 
-A shorthand support of `inline styles`.
+A shorthand support of `inline styles` - except not as dirty.
 
 An isolation of layout wrappers and business logics.
 
 An inspiration by / alternative of using `tailwind.css`.
+
+An alternative to do quick layout customization without bothering your CSS files.
 
 ----
 
