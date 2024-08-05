@@ -153,9 +153,9 @@ import { TPBox } from './TPBox/reactjs/TPBox'
     <div>C</div>
   </TPBox>
 </TPBox>
+```
 
-
-// is equivalent to
+```html
 // webcomponents
 
 <tp-box rel column a-center j-space-between wfullv hfullv>   <!-- Full window screen size, flex column, align items center, justify contents space-between, position relative -->
