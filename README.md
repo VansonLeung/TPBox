@@ -22,10 +22,10 @@ import { TPBox } from './TPBox.js'
 ...
 
 <!-- import webcomponents polyfill bundle -->
-<script src="<c:url value="./webcomponentsjs/webcomponents-bundle.js" />"></script>
+<script src="./webcomponentsjs/webcomponents-bundle.js"></script>
 
 <!-- import <tp-box> -->
-<script src="<c:url value="./tpbox.js" />"></script>
+<script src="./tpbox.js"></script>
 
 
 </head>
