@@ -9,7 +9,7 @@
 ```
 // React
 
-import { TPBox } from './TPBox'
+import { TPBox } from './TPBox/reactjs/TPBox'
 ```
 
 ----
@@ -25,7 +25,7 @@ import { TPBox } from './TPBox'
 <script src="./webcomponentsjs/webcomponents-bundle.js"></script>
 
 <!-- import <tp-box> -->
-<script src="./tpbox.js"></script>
+<script src="./TPBox/webcomponents/tpbox.js"></script>
 
 
 </head>
