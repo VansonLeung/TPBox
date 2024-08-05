@@ -73,7 +73,7 @@ import { TPBox } from './TPBox/reactjs/TPBox'
 ----
 
 ```html
-// web-components.org
+<!-- web-components.org -->
 
 <head>
 
