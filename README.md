@@ -39,13 +39,13 @@ import { TPBox } from './TPBox/reactjs/TPBox'
   m={15}
   wfullv
   h={`300px`}
-  min-w={150}
-  max-w={300}
+  minW={150}
+  maxW={300}
   flex={1}
   gap={10px}
-  o-auto
-  oy-scroll
-  ox-hidden
+  o_auto
+  oy_scroll
+  ox_hidden
   rel
   abs
   fixed
@@ -54,16 +54,16 @@ import { TPBox } from './TPBox/reactjs/TPBox'
   l={20}
   r={30}
   transform={`scale(1.5, 1.5)`}
-  transition-sec={3}
-  font-size={`20sp`}
-  font-family={`Arial, Verdana, Times New Roman`}
+  transitionSec={3}
+  fontSize={`20sp`}
+  fontFamily={`Arial, Verdana, Times New Roman`}
   opacity={0.5}
-  pointer-events-none
+  pointerEventsNone
   bg={`rgba(255,255,128, 0.5)`}
   color={`green`}
   pre
   border={`1px solid #999`}
-  border-radius={15}
+  borderRadius={15}
 >
   This is inside the TPBox element.
 </TPBox>
