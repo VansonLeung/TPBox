@@ -16,7 +16,7 @@ An alternative to do quick layout customization without bothering your CSS files
 
 ----
 
-```
+```jsx
 // React
 
 import { TPBox } from './TPBox/reactjs/TPBox'
@@ -72,7 +72,7 @@ import { TPBox } from './TPBox/reactjs/TPBox'
 
 ----
 
-```
+```html
 // web-components.org
 
 <head>
@@ -143,7 +143,7 @@ import { TPBox } from './TPBox/reactjs/TPBox'
 
 ### Quick use
 
-```
+```jsx
 // React
 
 <TPBox rel column aCenter jSpaceBetween wfullv hfullv>   {/* Full window screen size, flex column, align items center, justify contents space-between, position relative */}
