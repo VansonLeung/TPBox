@@ -78,7 +78,7 @@ import { TPBox } from './TPBox/reactjs/TPBox'
 ...
 
 <!-- import webcomponents polyfill bundle -->
-<script src="./webcomponentsjs/webcomponents-bundle.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@webcomponents/webcomponentsjs@2.8.0/webcomponents-loader.min.js"></script>
 
 <!-- import <tp-box> -->
 <script src="./TPBox/webcomponents/tpbox.js"></script>
