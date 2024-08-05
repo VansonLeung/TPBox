@@ -19,6 +19,10 @@ export const TPBox = React.forwardRef(({
   textAlignCenter, taCenter,
   textAlignLeft, taLeft,
   textAlignRight, taRight,
+  verticalAlign, va,
+  verticalAlignMiddle, vaMiddle,
+  verticalAlignTop, vaTop,
+  verticalAlignBottom, vaBottom,
   alignStart, aStart,
   alignCenter, aCenter,
   alignEnd, aEnd,
@@ -120,6 +124,10 @@ export const TPBox = React.forwardRef(({
     textAlignCenter, taCenter,
     textAlignLeft, taLeft,
     textAlignRight, taRight,
+    verticalAlign, va,
+    verticalAlignMiddle, vaMiddle,
+    verticalAlignTop, vaTop,
+    verticalAlignBottom, vaBottom,
     alignStart, aStart,
     alignCenter, aCenter,
     alignEnd, aEnd,
@@ -254,6 +262,38 @@ export const TPBox = React.forwardRef(({
     }
     else if (col || column) {
       __input_styles.flexDirection = `column`;
+    }
+
+    
+    textAlign = ta || textAlign
+
+    if (textAlign) {
+      __input_styles.textAlign = textAlign;
+    }
+    else if (taCenter || textAlignCenter) {
+      __input_styles.textAlign = `center`;
+    }
+    else if (taLeft || textAlignLeft) {
+      __input_styles.textAlign = `left`;
+    }
+    else if (taRight || textAlignRight) {
+      __input_styles.textAlign = `right`;
+    }
+
+    
+    verticalAlign = va || verticalAlign
+    
+    if (verticalAlign) {
+      __input_styles.verticalAlign = verticalAlign;
+    }
+    else if (vaMiddle || verticalAlignMiddle) {
+      __input_styles.verticalAlign = `middle`;
+    }
+    else if (vaTop || verticalAlignTop) {
+      __input_styles.verticalAlign = `top`;
+    }
+    else if (vaBottom || verticalAlignBottom) {
+      __input_styles.verticalAlign = `bottom`;
     }
   
   
