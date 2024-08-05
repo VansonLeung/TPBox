@@ -139,6 +139,35 @@ import { TPBox } from './TPBox/reactjs/TPBox'
 
 ```
 
+----
+
+### Quick use
+
+```
+// React
+
+<TPBox rel column aCenter jSpaceBetween wfullv hfullv>   {/* Full window screen size, flex column, align items center, justify contents space-between, position relative */}
+  <TPBox row aCenter jCenter wfull>                      {/* Full relative width, flex row, align items center, justify contents center */}
+    <div>A</div>
+    <div>B</div>
+    <div>C</div>
+  </TPBox>
+</TPBox>
+
+
+// is equivalent to
+// webcomponents
+
+<tp-box rel column a-center j-space-between wfullv hfullv>   <!-- Full window screen size, flex column, align items center, justify contents space-between, position relative -->
+  <tp-box row a-center j-center wfull>                       <!-- Full relative width, flex row, align items center, justify contents center -->
+    <div>A</div>
+    <div>B</div>
+    <div>C</div>
+  </TPBox>
+</TPBox>
+```
+
+
 
 
 
